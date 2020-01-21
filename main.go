@@ -30,7 +30,7 @@ func main() {
 		fmt.Fprintf(w, "IP: %s\n", GetIP())
 		fmt.Fprintf(w, "Platform: %s\n", runtime.GOOS)
 		fmt.Fprintf(w, "CPU: %d\n", runtime.NumCPU())
-		fmt.Fprintf(w, "RAM: %d", m.Sys)
+		fmt.Fprintf(w, "Memory: %d", m.Sys)
 	})
 
 	// Start the web server
